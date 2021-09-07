@@ -1,0 +1,62 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.conteiner {
+    background-color:#090431;
+    background-size: cover;
+    background-position: top;
+    
+    
+
+    
+}
+#nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    text-align: right;
+    padding: 0 20px;
+    color: white;
+}
+#resim {
+    background-image: url("../images/porsche-911-turbo-s.jpeg");
+    background-size: cover;
+    height: 60vh;
+    border:20px solid #113598;
+}
+p{
+    color: black;
+    text-indent: 20px;
+}
+h3 {
+    color: white;
+}
+#tablee {
+    background-color: #5D95E0;
+    border: none;
+    
+}
+th{
+    border: 20px white;
+    background-color: #5D95E0;
+    border-color: white;
+}
+h2{
+    background-color: #113598 ;
+}
+#nav li a:hover{
+	background-color:aquamarine;
+	border-radius: 10px;
+}
