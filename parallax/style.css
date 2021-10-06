@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#section1-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Image1.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+#section2-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Image2.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+#section3-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Image3.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #8a8a8a;
+    font-size: 25px;
+    padding: 5px ;
+    border-radius: 5px;
+
+    color: #B9D2D9;
+}
+#p1{
+    width: 100%;
+    height: 50vh;
+}
+#p1 h2{
+    padding: 60px 60px 30px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+#p1 p {
+    text-indent: 50px;
+    line-height: 30px;
+    padding: 0px 20px 0px 40px;
+    text-align-last: center;
+    font-family: Helvetica;
+}
+#p1 p::first-letter{
+    color: #87CEEB;
+    font-size: 50px;
+}
