@@ -6,6 +6,7 @@ const navMenu = () => {
         navList.classList.toggle('nav-active');
         navbarToggler.classList.toggle('toggle');
         
+        
     })
 };
 navMenu();
