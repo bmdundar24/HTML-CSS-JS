@@ -4,11 +4,7 @@ const navMenu = () => {
     const navList = document.querySelector('.nav-list');
     navbarToggler.addEventListener('click', () => {
         navList.classList.toggle('nav-active');
-        navbarToggler.classList.toggle('toggle');
-        
-        
-        
-        
+        navbarToggler.classList.toggle('toggle');  
     })
 };
 navMenu();
