@@ -5,6 +5,7 @@ const navMenu = () => {
     navbarToggler.addEventListener('click', () => {
         navList.classList.toggle('nav-active');
         navbarToggler.classList.toggle('toggle');
+        
     })
 };
 navMenu();
