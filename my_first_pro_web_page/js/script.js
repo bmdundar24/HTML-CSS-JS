@@ -7,6 +7,7 @@ const navMenu = () => {
         navbarToggler.classList.toggle('toggle');
         
         
+        
     })
 };
 navMenu();
